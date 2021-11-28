@@ -1,3 +1,4 @@
+# Contributor: Maxim Karasev <begs@disroot.org>
 pkgname=ttf-ios-emoji
 pkgver=14.5
 pkgrel=1
@@ -12,6 +13,5 @@ conflicts=(
 )
 
 package() {
-    install -dm 755 "${pkgdir}/usr/share/fonts/TTF"
-    install -m 644 AppleColorEmoji.ttf "${pkgdir}/usr/share/fonts/TTF/"
+    install -Dm644 AppleColorEmoji.ttf "$pkgdir"/usr/share/fonts/TTF/AppleColorEmoji.ttf
 }
