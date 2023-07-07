@@ -1,4 +1,4 @@
-### Port of iOS 14.5 emoji for Arch based systems 
+### Port of iOS 16.4 emoji for Arch based systems 
 
 ![Image](https://github.com/jarpex/ttf-ios-emoji/raw/master/screenshot.jpg)
 
